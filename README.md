@@ -41,7 +41,8 @@ ReactDOM.render(
 );
 
 ## En este archivo, hemos importado las bibliotecas necesarias de Redux y React, así como también nuestros componentes y reductor. Luego, hemos creado una instancia de la tienda Redux 
-y utilizado el componente Provider para proporcionar esta tienda a nuestra aplicación React. Finalmente, hemos renderizado nuestra aplicación React en el contenedor #root en el archivo HTML.
+## y utilizado el componente Provider para proporcionar esta tienda a nuestra aplicación React. Finalmente, hemos renderizado nuestra aplicación React en el contenedor #root en el archivo 
+## HTML.
 
 # Crea una carpeta llamada reducers y dentro de ella crea un archivo llamado tasks.js con el siguiente contenido:
 
@@ -121,7 +122,7 @@ const mapDispatchToProps = {
 export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 ## En este archivo, hemos creado nuestro componente de aplicación. Este componente maneja la lista de tareas y la entrada de texto para agregar nuevas tareas. 
-También se encarga de llamar a nuestras acciones para agregar o eliminar tareas.
+##También se encarga de llamar a nuestras acciones para agregar o eliminar tareas.
 
 # Crea una carpeta llamada actions y dentro de ella crea un archivo llamado tasks.js con el siguiente contenido:
 
